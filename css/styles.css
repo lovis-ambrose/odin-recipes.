@@ -1,0 +1,56 @@
+.content{
+    /* background-color: rgb(64, 71, 136); */
+    color: blue;
+    background-color: rgb(129, 155, 91);
+    background-image: url(./recipes/strawberries.jpg);  
+}
+body{
+    background-color: lightblue;
+}
+.nav{
+    background-color: blueviolet;
+    color: #fff;
+    height: 20px;
+    width: 100px;
+    border: 2px solid #fff;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+}
+.two-items{
+    display: flex;
+    margin: 5px;
+
+}
+.flex-box3{
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+    background-color: rgba(0, 8, 6, 0.986);
+    border: solid blue;
+    flex-grow: 1;
+    margin: 5px;
+    width: 33%;
+}
+
+.flex-box1{
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+    background-color: rgba(0, 8, 6, 0.986);
+    border: solid blue;
+    flex-grow: 1;
+    margin: 5px;
+    width: 34%;
+}
+.flex-box2{
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+    background-color: rgba(0, 8, 6, 0.986);
+    border: solid blue;
+    flex-grow: 1;
+    margin: 5px;
+    width: 33%;
+}

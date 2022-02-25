@@ -1,2 +1,3 @@
 # odin-recipes.
-trying new features and diving into code
+Trying new features and diving into code.
+this is so fascinating........
