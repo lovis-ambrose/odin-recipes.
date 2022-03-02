@@ -10,6 +10,7 @@
         fieldset{
             background-color: rgb(105, 218, 156);
             border: 5px dashed black;
+            box-shadow: 10px 10px 5px grey;
         }
         .container{
             padding: 100px;
@@ -25,6 +26,7 @@
             background-color: rgb(240, 240, 232);
             color: darkblue;
             border: 5px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         }
         .links{
             display: flex;
@@ -35,8 +37,11 @@
             justify-content: center;
         }
         img:hover{
-            border: 5px solid cyan;
+            border: 2px solid cyan;
             box-sizing: border-box;
+            width: 80px;
+            height: 60px;
+            
         }
         #paragragh{
             margin-top: 0pc;
@@ -69,6 +74,41 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: larger;
         }
+        /* ------responsive------- */
+        @media  screen and (max-width: 700px) {
+            .container {
+                width: 49.99999%;
+                margin: 6px 0;
+             }
+        }
+
+        @media  screen and (max-width: 500px) {
+            .container {
+                width: 100%;
+            }
+        }
+        @media  screen and (max-width: 700px) {
+            .respo {
+                width: 49.99999%;
+                margin: 6px 0;
+             }
+        }
+
+        @media  screen and (max-width: 500px) {
+            .respo {
+                width: 100%;
+                margin-top: 220px;
+            }
+            #paragragh{
+            margin-top: 0pc;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            margin-right: 20px;
+            align-items: center;
+            
+        }
+       
+
     </style>
 </head>
 <body class="content">
@@ -77,14 +117,16 @@
         <legend><h1>Odin Recipes</h1></legend>
         <div class="links">
             <pre>
-            <p><button><a href="recipes/pasted_fish.html"><img src="./recipes/fish.jpeg" height="50"></a></button><br> Goan fish curry</p>
-            <p><button><a href="recipes/strawberries.html"><img src="./recipes/strawberries.jpg" height="50"></a></button><br>Chocolate-Covered Strawberries</p>
-            <p><button><a href="recipes/cheese.html"><img src="./recipes/cheese.jpeg" height="50" width="70"></a></button><br>Lobster Mac and Cheese</p>
+            <p><button><a href="recipes/pasted_fish.html"><img src="./images/fish.jpeg" height="50"></a></button><br> Goan fish curry</p>
+            <p><button><a href="recipes/strawberries.html"><img src="./images/strawberries.jpg" height="50"></a></button><br>Chocolate-Covered Strawberries</p>
+            <p><button><a href="recipes/cheese.html"><img src="./images/cheese.jpeg" height="50" width="70"></a></button><br>Lobster Mac and Cheese</p>
             </pre>
         </div>
     </fieldset>
     </div>  
-    <p id="paragragh"><b><i>Here you go, enjoy your favorite dish.....</i></b></p>
-    <p id="para"><i>just click on the image to learn, prepare and satisfy your desire.. <em>salivate no more!!!!</em></i> <br> click <strong class="back-home">Back home</strong> to come Back</p> 
+        <div class="respo">
+            <p id="paragragh"><b><i>Here you go, enjoy your favorite dish.....</i></b></p>
+            <p id="para"><i>just click on the image to learn, prepare and satisfy your desire.. <em>salivate no more!!!!</em></i> <br> click <strong class="back-home">Back home</strong> to come Back</p> 
+        </div>
 </body>
 </html>
